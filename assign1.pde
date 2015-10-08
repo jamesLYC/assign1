@@ -27,10 +27,11 @@ void draw() {
   image(fighter,580,240);
   hp = loadImage("img/hp.png");
   image(hp,t,r);
-  fill(225,0,0);
-  rect(t+13,r+5,x,15);
   treasure = loadImage("img/treasure.png");
   image(treasure,k,s);
+  fill(225,0,0);
+  rect(t+13,r+5,x,15);
+  
   m++;
   m %= 640;
   n++;
