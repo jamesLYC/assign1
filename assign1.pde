@@ -15,7 +15,6 @@ void setup () {
   size(640,480) ;  // must use this size.
   // your code
 }
-
 void draw() {
   bg2 = loadImage("img/bg2.png");
   image(bg2,m,0);
