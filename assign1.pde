@@ -28,9 +28,9 @@ void draw() {
   hp = loadImage("img/hp.png");
   image(hp,t,r);
   treasure = loadImage("img/treasure.png");
-   fill(225,0,0);
-  rect(t+13,r+5,x,15);
   image(treasure,k,s);
+  fill(225,0,0);
+  rect(t+13,r+5,x,15);
   m++;
   m %= 640;
   n++;
